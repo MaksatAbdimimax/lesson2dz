@@ -1,7 +1,7 @@
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// spisok 5 metodov kotorye doljny otobrajatsya
         double pon = weatherTest(30, -20);
         System.out.println("Na ulitse: " + pon + "gradusov");
 
@@ -20,8 +20,8 @@ public class Main {
 
     }
 
-    public static double weatherTest(int ageOfPeople, int weather) {
-        if (ageOfPeople > 30 && weather < -20) {
+    public static double weatherTest(int ageOfPeople, int weather) {// tut byl sozdan metod
+        if (ageOfPeople > 30 && weather < -20) {// a eto usloviya  a, b, c
             System.out.println("Mojno idti gulyat ");
         } else if (ageOfPeople > 19 && weather < 0) {
             System.out.println("Mojno idti gulyat ");
